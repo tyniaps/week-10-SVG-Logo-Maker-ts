@@ -52,8 +52,8 @@ function writeToFile(fileName, data) {
         return console.log("error");
         
     }
-        console.log("New Logo Successfully Generated")
-        console.log("You Can Now View Your New Logo");
+        console.log("Successfully Generated 'logo.svg' file.")
+        console.log("You can now view your new logo.");
     });
 };
 
