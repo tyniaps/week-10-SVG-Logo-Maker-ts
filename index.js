@@ -46,3 +46,21 @@ function createLogo(data) {
 
 }
 
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (error) => {
+        if (error) {
+        return console.log("error");
+        
+    }
+        console.log("New Logo Successfully Generated")
+        console.log("You Can Now View Your New Logo");
+    });
+};
+
+
+function init() {
+    inquirer.prompt(questions).then((responses) => {
+        writeToFile("./sample/logo.svg", createLogo ((responses)));
+    })
+};
+
