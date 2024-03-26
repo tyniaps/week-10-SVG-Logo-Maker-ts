@@ -1,6 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+
 console.log("Welcome to the SVG Logo Maker")
 console.log("Please answer the following questions in order to create your logo:")
 
@@ -13,7 +14,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'logoColour',
+        name: 'logoColor',
         message: 'What colour would you like the logo to be?'
     },
     {
@@ -23,7 +24,8 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'textColour',
+        name: 'textColor',
         message: 'What colour would you like the 3 letters be?'
     },
 ]
+
