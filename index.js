@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-
+const {Triangle, Circle, Square} = require('./lib/shapes');
 
 console.log("Welcome to the SVG Logo Maker")
 console.log("Please answer the following questions in order to create your logo:")
