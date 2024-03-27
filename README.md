@@ -11,8 +11,9 @@ Completing this project allowed for further exploration into to the importance o
 Some of the key learning topics include Class Contructors and Class Inheritance. 
 
 The challenge also served as an introduction to Test Driven Development.
+<br>
 
-*(A sample logo created by the SVG logo make can be found within the 'sample' folder of this repository.)*
+*(A sample logo created by the SVG logo maker can be found within the 'sample' folder of this repository.)*
 
 ## User Story
 
