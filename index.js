@@ -1,11 +1,16 @@
+// Import and require inquirer and fs packages.
 const inquirer = require('inquirer');
 const fs = require('fs');
+
+// The code below will enable the specified variable and its contents to be imported from the shapes.js file. 
 const {Triangle, Circle, Square} = require('./lib/shapes');
 
 let requestedShape = undefined
 
+// Console logs to prompt the user.
 console.log("Welcome to the SVG Logo Maker")
 console.log("Please answer the following questions in order to create your logo:")
+
 
 const questions = [
     {
@@ -31,6 +36,7 @@ const questions = [
     },
 ]
 
+// The createLogo function will use the data collected from the Shape Class functions in the shapes.js file to generate the requested shape.
 function createLogo(data) {
 
     if (data.logoShape === 'Triangle') {
@@ -46,6 +52,7 @@ function createLogo(data) {
 
 }
 
+// The following functions allow the data for the new logo to be put presented as an svg file. It will be saved within the "sample" folder. 
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (error) => {
         if (error) {
