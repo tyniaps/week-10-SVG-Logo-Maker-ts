@@ -12,6 +12,8 @@ Some of the key learning topics include Class Contructors and Class Inheritance.
 
 The challenge also served as an introduction to Test Driven Development.
 
+*(A sample logo created by the SVG logo make can be found within the 'sample' folder of this repository.)*
+
 ## User Story
 
 AS a freelance web developer<br>
@@ -36,7 +38,7 @@ SO THAT I don't have to pay a graphic designer.
 
 4. You will then be presented with a number of questions that you must answer in order for the app to generate your logo. 
 
-5. Finally, your generated logo will be save within the "sample" folder and will be named "logo.svg".
+5. Finally, your generated logo will be saved within the "sample" folder and will be named "logo.svg".
 
 ## Screenshot 
 
